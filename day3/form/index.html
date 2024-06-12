@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="a.html">
+      <h2>Login here</h2>
+      <div>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+          minlength="4"
+          maxlength="30"
+          autocomplete="off"
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+          autocomplete="off"
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+      <div>
+        <label for="telephone">Telephone</label>
+        <input type="tel" id="telephone" required />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" required min="15" max="80" />
+      </div>
+      <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" required />
+      </div>
+      <div>
+        <label for="cv">CV form</label>
+        <input type="file" id="cv" accept=".pdf,.xls" required />
+      </div>
+      <div>
+        <label for="image">Photo</label>
+        <input type="file" id="image" accept="image/*,.pdf" required />
+      </div>
+      <div>
+        <label for="">Address</label>
+        <textarea name="" id=""></textarea>
+      </div>
+      <hr />
+      <div>
+        <h3>Select Gender</h3>
+        <input type="radio" name="gender" checked value="male" />Male
+        <input type="radio" name="gender" value="female" />Female
+      </div>
+      <div>
+        <h3>Your Skill</h3>
+        <input type="checkbox" name="skills" checked value="html" />HTML
+        <input type="checkbox" name="skills" checked value="css" />CSS
+        <input type="checkbox" name="skills" value="js" />JavaScript
+        <input type="checkbox" name="skills" value="php" />PHP
+        <input type="checkbox" name="skills" value="Python" />Python
+      </div>
+      <div>
+        <p>Select your country</p>
+        <select name="country" id="">
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="Thailand">Thailand</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="China" selected>China</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="myanmar">Myanmar</option>
+          <option value="Japan">Japan</option>
+        </select>
+      </div>
+      <button>Register</button>
+    </form>
+  </body>
+</html>
