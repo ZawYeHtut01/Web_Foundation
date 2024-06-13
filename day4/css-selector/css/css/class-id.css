@@ -1,0 +1,17 @@
+.title{
+    color: red;
+}
+.bg-black{
+    background-color: black;
+}
+h1.bg-blue{
+    background-color: blue;
+}
+p.bg-black{
+    color: lightblue;
+    padding: 20px;
+}
+#header, #header2{
+    text-align: center;
+    font-size: 4rem;
+}

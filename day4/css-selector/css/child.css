@@ -1,0 +1,12 @@
+h1{
+    background-color: green;
+}
+.main > h1{
+    background-color: yellow;
+}
+.sub > h1{
+    background-color: red;
+}
+.app > h1{
+    background-color: rgb(120, 46, 46);
+}

@@ -1,0 +1,19 @@
+input {
+    padding: 10px;
+}
+input[type="text"]{
+    background-color: red;
+}
+input[type="email"] {
+    background-color: blue;
+}
+.hello{
+    background-color: green;
+}
+.hello + li {
+    background-color: green;
+}
+.hello ~ li {
+    background-color: rgb(120, 52, 52);
+    text-align: center;
+}
