@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.app{
+    height: 100vh;
+    background: skyblue;
+    background: #87ceeb;
+    background: hwb(197 54 8);
+    background: hsl(197, 71, 73);
+    background: rgb(137, 207, 235);
+    background: linear-gradient(0deg,#2b2a2a1a,#0080003d,#ffff003b);
+    background: radial-gradient(circle,#e327275f,#00000054);
+    background: linear-gradient(-200deg,rgba(0, 0, 255, 0.427),rgba(255, 0, 0, 0.203)),url("https://images.unsplash.com/photo-1718103377026-df9e40c78141?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: bottom;
+}

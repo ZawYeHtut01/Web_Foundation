@@ -1,0 +1,21 @@
+p{
+    width: 400px;
+    text-align: center;
+    background-color: pink;
+    margin: auto;
+}
+span{
+    display: block;
+    width: 200px;
+    text-align: center;
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    background-color: skyblue;
+}
+/* can't do like this in inline element */
+a{
+    text-align: center;
+    margin: auto;
+}

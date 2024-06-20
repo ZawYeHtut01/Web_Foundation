@@ -1,0 +1,64 @@
+h2{
+    color: red;
+    background-color: #222;
+    width: fit-content;
+    transition: 0.5s;
+}
+/*psuedo class(:)*/
+h2:hover, h2:active {
+    color: #fff;
+    padding: 5px;
+    background-color: 20px;
+    width: 200px;
+    text-align: center;
+}
+a:visited {
+    color: orange;
+}
+input {
+    padding: 10px;
+}
+input[type="text"]:active{
+    background-color: skyblue;
+}
+input[type="email"]:focus{
+    background-color: red;
+}
+.app :first-child{
+    background-color: red;
+}
+.app :last-child{
+    background-color: red;
+}
+.app :nth-child(3){
+    background-color: skyblue;
+}
+.app :nth-child(even){
+    text-align: center;
+}
+.app :nth-child(odd){
+    font-size: 2rem;
+}
+/* psuedo element(::) */
+
+input::placeholder{
+    color: red;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+h1::before{
+    content: "HTML";
+    background-color: red;
+    display: block;
+}
+h1::after{
+    content: "JS";
+    background-color: yellow;
+    display: block;
+}
+h1{
+    background-color: green;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+}

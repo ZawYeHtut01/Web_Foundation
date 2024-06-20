@@ -1,0 +1,16 @@
+*{
+    color: antiquewhite;
+}
+p{
+    background: red;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+span{
+    background: blue;
+    /* display: block; */
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
