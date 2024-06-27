@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 20000px;
+}
+nav{
+    height: 100px;
+    background-color: red;
+    /* position: sticky;
+    top: 0; */
+}
+main{
+    height: 100vh;
+    background: green;
+    padding: 30px;
+}
+footer{
+    height: 100px;
+    background: tomato;
+    position: sticky;
+    top: 100px;
+}
+a{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}

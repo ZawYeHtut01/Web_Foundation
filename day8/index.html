@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      button {
+        padding: 10px 20px;
+        border-radius: 20%;
+        position: relative;
+        z-index: 1;
+      }
+      button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        right: 100%;
+        background: red;
+        z-index: -1;
+        transition: 0.6s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button>Click</button> -->
+    <div class="main">
+      <div class="box box-1">box-1</div>
+      <div class="box box-2">box-2</div>
+    </div>
+  </body>
+</html>
